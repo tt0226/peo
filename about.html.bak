@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>关于我们</title>
+	<meta charset="utf-8" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/swiper-3.3.1.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!--<script src="js/swiper-3.3.1.jquery.min.js"></script>-->
+</head>
+<body>
+    <!--头部开始-->
+    <header style="position: absolute;">
+        <div class="head header2">
+            <div class="logo">
+                <img src="images/aboutl_03.png" />
+            </div>
+            <div class="muse muse2">
+                <ul>
+                    <li ><a href="index.html">首页</a></li>
+                    <li ><a href="kssz.html">讯速甩脂营</a></li>
+                     <li><a href="teacher.html">教练</a></li>
+                    <li ><a href="sanya.html">三亚度假减肥班</a></li>
+                    <li > <a href="photo.html">影像库</a> </li>
+                    <li><a href="userfx.html">学员分享</a></li>
+                    <li><a href="zddt.html">基地资讯</a> </li>
+                    <li class="active"><a href="about.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--头部结束-->
+    <!--内容开始-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide one">
+                <div class="main">
+                    <div class="about">
+                        <p class="about_title">ABOUT US </p>
+                        <p class="about_titletwo">人人胖国际减肥基地</p>
+                        <p class="about_titlein">我们是全国最大的减肥训练营，独有的私家减肥课程，让您成功摆脱肥胖困扰。</p>
+                        <div class="about_titlinc">
+                            <p class="about_titlinc2">
+                                人人胖国际减肥基地是全国最大的减肥训练营，基地占地24万平方米，
+                                为国家一级运动员训练专用场地。该基地集住宿、餐饮、专业体育赛事开展、体育健身、
+                                休闲娱乐、会议培训、医疗康复、技能测试、科学研究等为一体。
+                                我们以卓越的理念和领先的环境，引导运动减肥行业飞速发展。重金特聘资深教练团队，独有私家减肥课程，将室内运动和户外拓展相完美结合，只为您能够在基地内玩的开心，
+                                减得快乐。成立以来，成功帮助数万学员们摆脱肥胖困扰。
+                            </p>
+                        </div>
+                     
+                        <ul class="about_ic fix">
+                            <li>
+                            <div class="about_inc">
+                                <div class="about_left">
+                                    <img src="images/aboutic_06_09.png" />
+                                </div>
+                                <div class="about_right">
+                                    <label>成立于</label>
+                                   <p>2015年</p> 
+                                </div>
+                            </div>
+                          </li>
+                            <li>
+                                <div class="about_inc">
+                                    <div class="about_left">
+                                        <img src="images/aboutic_06_05.png" />
+                                    </div>
+                                    <div class="about_right">
+                                        <label>总部位于</label>
+                                        <p>北京</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="about_inc">
+                                    <div class="about_left">
+                                        <img src="images/aboutic_06_05.png" />
+                                    </div>
+                                    <div class="about_right">
+                                        <label>人人胖学员</label>
+                                        <p>25000+人</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="about_inc">
+                                    <div class="about_left">
+                                        <img src="images/aboutic_06_09.png" />
+                                    </div>
+                                    <div class="about_right">
+                                        <label>训练场馆</label>
+                                        <p>9个</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+            </div>
+            <div class="swiper-slide two">
+                <div class="main">
+                    <div class="partner">
+                        <p class="partner_title">OUR PARTNER </p>
+                        <p class="partner_titletwo">我们的合作伙伴</p>
+                    
+                        <div class="partner_titlinc">
+                          <div class="partner_left">
+                              <ul class="fix">
+                                  <li><img src="images/about2_03.png" /></li>
+                                  <li><img src="images/about2_05.png" /></li>
+                                  <li><img src="images/about2_09.png" /></li>
+                                  <li><img src="images/about2_10.png" /></li>
+                              </ul>
+                          </div>
+                            <div class="partner_right">
+                                <div class="jy"><img src="images/about2_08.png" /></div>
+                                <div class="part_inc">我们的合伙人来自于一家10年历史的国际减肥健身俱乐部，美国Live in Fitness健身俱乐部，该俱乐部起源于美国纽约，后辐射全美及英国和加拿大。是世界第一家将枯燥的减肥训练结合时尚运动元素的减肥健身俱乐部。也是全美第一家成功开展线上互动减肥俱乐部的公司，这也是全球从事重度肥胖者减肥行业内经验最为丰富的俱乐部。</div>
+                            </div>
+                        </div>
+
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide thre">
+                <div class="main">
+                    <div class="about">
+                        <p class="about_title">QUALIFICATION HONOR </p>
+                        <p class="about_titletwo">资质荣誉</p>
+
+                        <ul class="honor fix">
+                            <li><img src="images/ab_18.png" /></li>
+                            <li><img src="images/ab2_20.png" /></li>
+                            <li><img src="images/ab2_20_20.png" /></li>
+                            <li><img src="images/ab2_24.png" /></li>
+                            <li><img src="images/ab2_30.png" /></li>
+                            <li><img src="images/ab2_31.png" /></li>
+                            <li><img src="images/ab2_33.png" /></li>
+                            <li><img src="images/ab2_34.png" /></li>
+                            <li><img src="images/ab2_39.png" /></li>
+                            <li><img src="images/ab2_40.png" /></li>
+                            <li><img src="images/ab2_41.png" /></li>
+                            <li><img src="images/ab2_42.png" /></li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide four">
+                <div class="main">
+                    <div class="partner">
+                        <p class="partner_title">CONTACT US </p>
+                        <p class="partner_titletwo">联系我们</p>
+
+                      <div class="contac">
+                          <div class="contac_left">
+                              <h2>北京人人胖国际减肥基地</h2>
+                              <p>所属公司：北京森芭迪体育文化发展有限公司</p>
+                              <p>免费热线：4008-299-339</p>
+                              <p>TEL：010-67896570</p>
+                              <p>Mail：renrenpang@126.com</p>
+                              <p>地址：北京顺义区沙峪</p>
+                          </div>
+                          <div class="contac_right">
+                              <ul class="fix">
+                                  <li><h2>官方微信号</h2><img src="images/ab2_48.jpg" /></li>
+                                  <li><h2>官方订阅号</h2><img src="images/ab2_50.jpg" /></li>
+                              </ul>
+                          </div>
+                      </div>
+
+
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+
+
+
+
+    <!--底部版权开始-->
+   <div class="fot fot_xin">
+        <div class="footer footer2">
+            北京营地：北京哈哈区亦庄卡尔生活馆    公司：北京哈哈体育文化发展有限公司    版权所有(C)人人瘦减肥训练    ICP备080011627号  
+    </div>
+        </div>
+
+    <!--底部版权结束-->
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-3.3.1.jquery.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        mousewheelControl: true
+    });
+    </script>
+
+
+
+
+
+
+    <!--内容结束-->
+</body>
+</html>

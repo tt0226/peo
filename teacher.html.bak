@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>教练</title>
+	<meta charset="utf-8" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/swiper-3.3.1.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/mySystem.js"></script>
+</head>
+<body>
+    <!--头部开始-->
+    <header>
+        <div class="head">
+            <div class="logo">
+                <img src="images/fat_03.png" />
+            </div>
+            <div class="muse">
+                <ul>
+                    <li ><a href="index.html">首页</a></li>
+                    <li ><a href="kssz.html">讯速甩脂营</a></li>
+                    <li><a href="teacher.html">教练</a></li>
+                    <li class="active"><a href="sanya.html">三亚度假减肥班</a></li>
+                    <li > <a href="photo.html">影像库</a> </li>
+                    <li><a href="userfx.html">学员分享</a></li>
+                    <li><a href="zddt.html">基地资讯</a> </li>
+                    <li><a href="about.html">关于我们</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--头部结束-->
+    <!--banner-->
+    <div class="banner">
+        <img src="images/fat_06.jpg" />
+    </div>
+    <!--banner结束-->
+
+    <!--内容开始-->
+    <div class="main">
+        <div class="tec">
+            <div class="tec_img"><img src="images/jl2_03.jpg" /></div>
+            <div class="tec_inc"><img src="images/jy23_03.png" /></div>
+        </div>
+        <div class="tec_list">
+            <div class="tec_title">
+                <img src="images/jy_07.png" />
+            </div>
+            <div class="tec_kc">
+                <img src="images/jy_03.png" />
+                <img src="images/jy_05.jpg" />
+                <img src="images/jy_07.jpg" />
+                <img src="images/jy_09.jpg" />
+                <img src="images/jy_11.jpg" />
+                <img src="images/jy_13.jpg" />
+                <img src="images/jy_15.jpg" />
+                <img src="images/jy_17.jpg" />
+                <img src="images/jy_19.jpg" />
+                <img src="images/jy_21.jpg" />
+                <img src="images/jy_23.jpg" />
+                <img src="images/jy_25.png" />
+                <img src="images/jy2_27.jpg" />
+                <img src="images/jy1_29.jpg" />
+
+                <img src="images/jy_39.jpg" />
+                <img src="images/jy_40.jpg" />
+                <img src="images/jy_41.jpg" />
+                <img src="images/jy_42.jpg" />
+                <img src="images/hh_14.jpg" />
+                <img src="images/jy_44.jpg" />
+            </div>
+            <div class="tec_toll">
+                <img src="images/jl2_10.png" />
+            </div>
+                <!--轮播切换-->
+            <!-- Swiper -->
+            <div class="swiper-container teclb">
+                <div class="swiper-wrapper teclb">
+                    <div class="swiper-slide"><img src="images/jy_03.jpg" /></div>
+                    <div class="swiper-slide"><img src="images/jl(1)_03.jpg" /></div>
+                    <div class="swiper-slide"><img src="images/jy_03.jpg" /></div>
+                 
+                </div>
+              
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+
+            <div class="tec_zs">
+                <img src="images/zs_03.png" />
+            </div>
+            <div class='silder-box silder-box-1'>
+                <div class='silder'>
+                    <ul class="fix">
+                        <li>
+                            <img src="images/zs1_03.png">
+                        </li>
+                        <li>
+                            <img src="images/zs_05.png">
+                        </li>
+                        <li>
+                            <img src="images/zs_07.png">
+                        </li>
+                        <li>
+                            <img src="images/zs1_03.png">
+                        </li>
+                        <li>
+                            <img src="images/zs_05.png">
+                        </li>
+                        <li>
+                            <img src="images/zs_07.png">
+                        </li>
+                     
+                    </ul>
+                </div>
+                <div class='silder-button btl'></div>
+                <div class='silder-button btr'></div>
+            </div>
+
+
+            <!-- Swiper JS -->
+            <script src="js/swiper-3.3.1.jquery.min.js"></script>
+
+
+        </div>
+    </div>
+    <!--内容结束-->
+
+    <div class="footer">
+        <div class="footer_toll">
+            <div class="footer_left">
+                <p>人人胖 版权所有 2013-2018 ICP备080011627 </p>
+                <p>电话：400-299-339  邮箱：renrenpang@126.com</p>
+            </div>
+            <div class="footer_right">
+
+                <ul>
+
+
+                    <li>训练营咨询  </li>
+                    <li>联系我们  </li>
+                    <li>关于我们 </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>北京森芭迪体育文化发展有限公司</p>
+        </div>
+
+    </div>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        pagination: '.swiper-pagination',
+        paginationType: 'fraction'
+    });
+    </script>
+    <script>
+	$(function(){
+		//回调函数计数
+		var callbackIndex = 0;
+		$('.silder-box-1').mySilder({
+			width:390, //容器的宽度 必选参数!!!!!!
+			height:400, //容器的高度 必选参数!!!!!!
+			auto:true,//是否自动滚动
+			autoTime:5, //自动滚动时，时间间隙，即多长滚动一次,单位(秒)
+			direction:'x',//滚动方向,默认X方向
+			autoType:'left', //滚动方向，auto为true时生效
+			few:1,//一次滚动几个，默认滚动1张
+			showFew:3, //显示几个,就不用调css了,默认显示一个
+			clearance:10, //容器之间的间隙，默认为 0
+			silderMode:'linear' ,//滚动方式
+			timeGap:650,//动画间隙，完成一次动画需要多长时间，默认700ms
+			buttonPre:'.silder-button.btl',//上一个，按钮
+			buttonNext:'.silder-button.btr',//下一个，按钮
+			jz:true, //点击时，是否等待动画完成
+			runEnd:function(){//回调函数
+				callbackIndex ++ ;
+				$('.cj em').text(callbackIndex);
+			}
+		});
+
+
+
+		
+
+	});
+    </script>
+</body>
+</html>
